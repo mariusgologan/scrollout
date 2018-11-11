@@ -1,0 +1,27 @@
+$DATASET dnset @ bl-ns reputation-ns reputation-ns-0
+$TTL 30
+$1 www.scrolloutf1.local
+$2 bl-ns.scrolloutf1.local
+$3 The ns address
+$4 Reputation: 0.
+:127.0.0.2:$3 $ is listed in $2. $4 More details: http://$2/reputation-ns=$
+# 127.0.0.2 Return code for reputation-ns-0.scrolloutf1.local
+# 2.0.0.127 Return code for reputation-ns-0.scrolloutf1.local
+# Exclusions:
+!127.0.0.1
+!1.0.0.127
+!localhost
+!.localdomain
+!.local
+!.168.192.in-addr.arpa
+!.127.in-addr.arpa
+!.10.in-addr.arpa
+!.16.172.in-addr.arpa
+!.254.169.in-addr.arpa
+test	TESTENTRY for Name Servers
+# Examples:
+# ns1.example.com
+# ns2.example.com
+# .example.com
+# *.example.com
+# ADD YOUR ENTRIES BELOW:

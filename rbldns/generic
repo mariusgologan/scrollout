@@ -1,0 +1,11 @@
+$SOA 86400 ns1.scrolloutf1.local abuse.scrolloutf1.local 0 3600 600 2419200 30
+$NS 3600 ns1.scrolloutf1.local
+
+$DATASET generic @
+@ A 127.0.0.1
+NS1 A 127.0.0.1
+www A 127.0.0.1
+mx1 A 127.0.0.1
+@ MX 10 mx1.scrolloutf1.local
+@ TXT v=spf1 a mx -all
+

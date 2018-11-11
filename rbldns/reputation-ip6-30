@@ -1,0 +1,25 @@
+$DATASET ip6trie @ reputation-ip6 reputation-ip6-30
+$TTL 30
+$1 www.scrolloutf1.local
+$2 reputation-ip6.scrolloutf1.local
+$3 The ip6 address
+$4 Reputation: 30.
+:127.3.30.2:$3 $ is listed in $2. $4 More details: http://$2/reputation-ip6=$
+# 127.3.30.2 Return code for reputation-ip6-30.scrolloutf1.local
+# 2.30.3.127 Return code for reputation-ip6-30.scrolloutf1.local
+# Exclusions:
+!::1
+!fc00::/7
+# Examples (from man page):
+# A listing, note that trailing :0s can be omitted
+# 2001:21ab:c000/36
+
+# /64 range with non-default A and TXT values
+# 2001:21ab:def7:4242 :127.0.1.3: This one smells funny
+
+# compressed notation
+# 2605:6001:42::/52
+# ::1                   # localhost
+# !2605:6001:42::bead   # exclusion
+
+# ADD YOUR ENTRIES BELOW:

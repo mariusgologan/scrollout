@@ -1,0 +1,44 @@
+; key#1 2048 bits, i=dkim, d=nxthost.io, /var/www/dkim/nxthost.io-dkim.key.pem
+dkim._domainkey.nxthost.io.	3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4RSCueWlLl0gI1BzRBCR"
+  "ZJQC9mxbZSsLLJVk8olc215CEegb7LRFLstzO1ip6fGtOdQDkCWqwMGEBqVE9wcX"
+  "PM5ireO6xDQ6ug0/XcFi+mDTrIDRqdEGgLvOa8XCPOICP1DH8yGgZauivd8J974t"
+  "MBdWMFhlPr8fy+6K0YK/x/ivcQPNKeKt8fZ6QODuVPeXILgVW4eGV8k941uBZniz"
+  "thjpV7rAR8FKbJM79kPBle2YRub8oqJs7WxSHsUDF6H5wXWK4aO8hOeTSzJqqwcX"
+  "9mxs07H4bd+Q8QS6fKpwCUmWgRetEgfP4/ouvRg0fiOpU3EafWzIb5pjS+nYQdiS"
+  "CQIDAQAB")
+
+; key#2 2048 bits, i=dkim, d=nxthost.net, /var/www/dkim/nxthost.net-dkim.key.pem
+dkim._domainkey.nxthost.net.	3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxO4Q/nc9/NSRj/WrGgUk"
+  "+7+hqoPkfrHK10HtSmjoPKobW3+/Bpba9hGph8NB/Oqy+uF0hEIAFY6S5Zk8Jpak"
+  "9jVbevWgJs8crRKTdaKW47fl60/bWRKxBH5f6eGMWCuCuFnsSQ7ln5v7T2X2GmiW"
+  "GBPtcCsPWvMvaX6c9yIOY3Q5+kqCxWfeYSirUoYszvJxeKxWJs3FeJgP7iMgPPyG"
+  "bgHZuROwsRx1icZDd/qAoeDPJUiPf56KKAmWPhAvAL2rp8hR95MZDEkuhxVcmfkR"
+  "LSxCepRpkdyAqX31Ii+EfnYThv++2mgVIPMcWIfxnjAZHN5077TrKMOeJ6cg/hQ9"
+  "BQIDAQAB")
+
+; key#3 2048 bits, i=dkim, d=as2d.ro, /var/www/dkim/as2d.ro-dkim.key.pem
+dkim._domainkey.as2d.ro.	3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3W31ktNoxFfQuCrmOm6Q"
+  "WtbzZE/FDeYNU0xKKSqwj5z1UoYejXbJ5zB/0Ln1OJo9NuvuR0N7AS5pvEpHV6DQ"
+  "JCAHBCt6Z6fcgR2Fv4or5OpPBfrVvCMKVl/5ErRPberu5kCvOGCXiSldHbgACZTX"
+  "DDkyD+bAax60gT0Ge//UTXsd14gd/n9lZ7f/VOhtr8Ik+EPxNxK5Cvjhm9lbMV1e"
+  "Pc0RUYDrIp1P/h008gnZXnRQRFb41ulIzNPb+ipAcm7dwc78ot7VEqD0SgfgtReq"
+  "xz35QNayzRmclZvvWdKTO3MosqiJA1nmqqQZ0B094TtwG33LavU9s8EBAhxwnJMP"
+  "NQIDAQAB")
+
+; key#4 2048 bits, i=dkim, d=marius.gologan, /var/www/dkim/marius.gologan-dkim.key.pem
+dkim._domainkey.marius.gologan.	3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyZXg9VuvVeOfaOv0qFUs"
+  "6PvJAKMQz+6HrMi/JkxQ/BDXVhOb7SiZ253UFE7C7QZg88ECC8XdhSCBBprHbfvi"
+  "a5QYsMxP6V1P2TXpLK8Gqvx1pjVJw7WUrVuRi+JzbRN24OQuZj2xoFH461wBxrhl"
+  "hp2LhZmWHnnXWmFnHJoUjHpHcK+peIEEx18upBljNhpJMrz4TfNhMaXtaNsTFwX1"
+  "fhQaBsYbu+OGSxVBbS9T0NHhm/ic8rQAX+codSapAJ1c0rnVQMqZEt33t15Hl1kN"
+  "ynshgeX8mIOHdvtw6lYoMeMs9qCWdhQQe+QX9ELLtq/r4SiQzisRjA5GoLr/szMs"
+  "cQIDAQAB")
+
